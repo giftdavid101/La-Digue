@@ -1,0 +1,208 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+html,body{
+    height: 100vh;
+}
+
+.main{
+    width: 100%;
+    height: 120vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.137), rgba(22, 21, 21, 0.068)), url(/assets/img/beach2.jpg);
+    background-size: cover; 
+    background-position: center;
+  
+    
+}
+.nav{
+ 
+    margin: auto;
+    width: 90%;
+  z-index: 2;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+  
+ 
+}
+.menu{
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.pics{
+   width: 4%;
+}
+.emagee{
+    width:3%;
+    
+}
+
+nav .list li a{
+   padding:10px;
+   background-color: red; 
+  
+}
+
+li {
+    list-style-type: none;
+    padding: 12px; 
+  
+}
+a.active{
+    color:rgb(195, 53, 1);
+
+    
+}
+a{
+    text-decoration: none;   
+    color: white;
+}
+
+
+.list{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-section {
+width: 90%;
+margin: auto;
+}
+.left{
+    color: rgb(231, 22, 22);
+    font-size: 2em;
+
+}
+.mini-section{
+ width: 30%;
+position: absolute;
+top: 250px;
+color: white;
+
+}
+.title{
+    font-size: 52px;
+}
+.picture-slide{
+    
+    width:100%; 
+    background-color: saddlebrown;
+    position: relative;
+    border-radius: 5px;
+     
+  
+}
+.emage{
+    width: 10%;
+    border-radius: 10px;
+    padding: 6px;
+    
+}
+.mage{
+    width: 14%;
+    height: 5vh;
+    background-color: rgb(42, 56, 48);
+    border-radius: 10px;
+    padding: 6px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    opacity: 10px;
+   
+}
+.image-container{
+    width:8%;
+    border-radius: 30px;
+    display: inline-block;
+   padding: 4px;
+   
+}
+.cala{
+    width: 80%;
+     background-color: rgba(98, 77, 77, 0.52);
+}
+.moree{
+    width: 80%;
+    margin-top: 20px;
+    
+   
+    display: flex;
+    justify-content: space-around;
+  }
+.more{
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.emage2{
+    width: 100%;
+   border-radius: 30px;
+   display: inline-block;
+   
+}
+.text{
+    color: white;
+    font-size: 15px;
+}
+/* .mage2{
+    width: 20%;
+    height: 2.5vh;
+    background-color: rgb(42, 56, 48);
+    border-radius: 10px;
+    padding: 6px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    opacity: 10px;
+   
+} */
+.mage2{
+    width: 80px;
+    border-radius: 5px;
+    height: 3vh;
+  margin: 5px 0;
+    background-color: slategrey;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    width: 115px;
+    border-radius: 5px;
+    height: 3vh;
+    margin: 5px 0;
+    
+    text-align: center;
+}
+@media screen and (max-width:2000px){
+    .center-text, .mobile-menu{
+        display: none;
+    }
+}
+@media screen and (max-width:700px){
+    .list, .menu, .sub-section{
+        display: none;
+    }
+     .mobile-menu{
+         font-size: 22px;
+     }
+    .center-text{
+        width: 20%;
+        height: 20vh;
+        font-size: 15px;
+        margin: auto;
+        color: white;
+
+    }
+
+}
+
