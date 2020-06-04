@@ -183,25 +183,36 @@ color: white;
     
     text-align: center;
 }
-@media screen and (max-width:2000px){
-    .center-text, .mobile-menu{
+@media screen and (min-width:800px)and (max-width:1700px){
+    .mobile-menu, .more-details{
         display: none;
     }
 }
 @media screen and (max-width:700px){
-    .list, .menu, .sub-section{
+    .list, .menu, .mini-section{
         display: none;
     }
      .mobile-menu{
          font-size: 22px;
      }
     .center-text{
-        width: 20%;
-        height: 20vh;
+        width: 100%;
+       
+        background-color: rgba(129, 53, 53, 0.233);
         font-size: 15px;
         margin: auto;
         color: white;
+        border-radius: 10px;
 
+    }
+     .m{
+     margin-top: 250px;
+    animation: animate__slideInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration:5s;
+    }
+    button{
+        width: 20%;
+        height: 4vh;
     }
 
 }
